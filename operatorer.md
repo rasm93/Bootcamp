@@ -17,10 +17,10 @@ Operatorer | Beskrivelse | Eksempel | Resultat
 "*" | Gange | alder * 10 | alder = 240
 "/" | Divider | alder / 10 | alder = 2,4
 "%" | Modulus | alder % | 0,576
-"&&" | Logisk Og | if (navn = "Andrew" && alder > 18) | Begge betingelser skal være opfyldt
-|
+"&&" | Logisk Og | if (navn = "Andrew" && alder > 18) | Begge betingelser skal være opfyldt |
 
-* ||
-* Logisk Eller
-* if (navn = "Andrew" || alder > 18)
-* Kun en af betingelserne skal være opfyldt
+
+* **Operatorer**: ||
+* **Beskrivelse**: Logisk Eller
+* **Eksempel**: if (navn = "Andrew" || alder > 18)
+* **Resultat**: Kun en af betingelserne skal være opfyldt
