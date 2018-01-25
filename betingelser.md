@@ -46,7 +46,7 @@ Handlingen fra *else if* vil derfor udføres, og teksten *"Din alder er over 18"
 Ved hjælp af *if* kan man undersøge en lang række betingelser:
 
 
-Operator | Beskrivelse
+Operatorer | Beskrivelse
 ---------|------------
 "<" | Mindre end
 ">" | Større end
