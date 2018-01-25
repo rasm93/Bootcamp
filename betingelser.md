@@ -48,9 +48,9 @@ Ved hjælp af *if* kan man undersøge en lang række betingelser:
 
 Operator | Beskrivelse
 ---------|------------
-< | Mindre end
-> | Større end
-== | Lig med
-!= | Ikke lig med
-<= | Mindre end, eller lig med
->= | Større end, eller lig med
+"<" | Mindre end
+">" | Større end
+"==" | Lig med
+"!=" | Ikke lig med
+"<=" | Mindre end, eller lig med
+">=" | Større end, eller lig med
