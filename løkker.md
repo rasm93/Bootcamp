@@ -64,7 +64,7 @@ Som med de andre eksempler, vil løkken køre så længe *i* er mindre end **25*
 
 ## forEach
 
-*forEach* er en anden form for løkke, som kan bruges til blandt andet at løbe igennem et *array*. Den tildeler hvert element i *arrayet* en funktion, som udføres én gang.
+*forEach* er en anden form for løkke, som kan bruges til blandt andet at løbe igennem et *array*. Den tildeler hvert element i *arrayet* en *funktion*, som udføres én gang.
 
 ```javascript
 var navne = ["Andrew", "Morten", "Lars", "Jens"];

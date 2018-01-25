@@ -67,4 +67,5 @@ kunstnere.forEach(function(kunstner, index){
     console.log(kunstner + " er nummer " + index);
 });
 
+
 // Øvelse: Løkker 9
