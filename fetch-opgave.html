@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fetch Opgave</title>
+</head>
+<body>
+    
+    <!-- Øvelse: fetch 1 -->
+
+    <!-- <script>
+    
+    fetch('https://swapi.co/api/people/')
+    .then((response) => {
+        return response.json();
+    })
+    .then((json) => {
+        let content = document.getElementById('content');
+        let h1 = document.createElement('h1');
+        let p = document.createElement('p');
+
+        h1.textContent = json.results[0].name;        
+        content.appendChild(h1);
+        
+        p.textContent = json.results[0].eye_color + ' ' + json.results[0].height;
+        content.appendChild(p);
+    });
+
+    </script>
+
+    <div id="content"></div> -->
+
+
+    <!-- Øvelse: fetch 2 -->
+
+    <script>
+    
+        fetch('https://swapi.co/api/people/')
+        .then((response) => {
+            return response.json();
+        })
+        .then((json) => {
+            let content = document.getElementById('content');
+
+            json.results.forEach(person => {
+
+            let h1 = document.createElement('h1');
+            let p = document.createElement('p');
+    
+            h1.textContent = person.name;        
+            content.appendChild(h1);
+            
+            })
+
+        });
+    
+        </script>
+    
+        <div id="content"></div>
+
+</body>
+</html>
