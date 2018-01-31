@@ -10,4 +10,8 @@ function palindrome(str){
     return reverseStr === lowRegStr;
 }
 
+// true
 console.log(palindrome("A man, a plan, a canal. Panama"));
+
+// false
+console.log(palindrome("A woman, a plant, a canal. Panama"));
